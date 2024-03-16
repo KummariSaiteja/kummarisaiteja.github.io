@@ -59,9 +59,16 @@
         nav ul li a:hover::after{
             width: 100%;
         }
+        .main-page{
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            
+        }
         .header-text{
             margin-top:20%;
             font-size:30px;
+            flex-basis:70p%;
         }
         .header-text h1{
             font-size: 60px;
@@ -69,6 +76,13 @@
         }
         .header-text h1 span{
             color: #ff004f;
+        }
+        .project-links{
+            flex-basis:30%;
+            margin-top:100px;
+        }
+        .project-links ul li{
+            margin-bottom:8px;
         }
         #about{
             padding: 80px 0;
@@ -113,10 +127,18 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <div class="header-text">
-            <p>MERN Stack Developer</p>
-            <h1>Hi, I'm <span>Saiteja</span><br>from Hyderabad</h1>
+        <div class="main-page">
+            <div class="header-text">
+                <p>MERN Stack Developer</p>
+                <h1>Hi, I'm <span>Saiteja</span></h1>
+           </div>
+           <div class="project-links">
+               <h2 style="margin-bottom:5px;">My Projects</h2>
+               <li><a href="facebook/index.html">Facebook</a></li>
+               <li><a href=" https://kummarisaiteja.github.io/coffeeshop/">CoffeeShop</a></li>
+           </div>    
         </div>
+        
     </div>
 </div>
 
@@ -136,11 +158,7 @@
                     <p class="tab-links">Experience</p>
                     <p class="tab-links">Education</p>
                 </div>
-                <div>
-                    <h2>My Projects</h2>
-                    <li><a href="facebook/index.html">Facebook</a></li>
-                    <li><a href=" https://kummarisaiteja.github.io/coffeeshop/">CoffeeShop</a></li>
-                </div>
+                
             </div>
         </div>
     </div>
